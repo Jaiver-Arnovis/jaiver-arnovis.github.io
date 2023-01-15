@@ -279,6 +279,10 @@
         margin: 0 auto;
         top: 48px;
         display: grid;
+        grid-template-areas:   ".text-box .text-box .text-box .msg-inf"
+                                ".text-box .text-box .text-box .msg-inf"
+                                ".text-box .text-box .text-box .msg-inf"
+                                "         .box-btn  .box-btn";
         
     }
 
@@ -289,7 +293,6 @@
         max-height: 450px;
         margin: 0 auto;
         margin-left: 48px;
-        justify-content: start;
 
 
 
