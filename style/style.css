@@ -258,21 +258,20 @@
     background: rgb(231, 231, 132);
 }
 
-    body{
 
 
 
 
 
 
-    }
+  
     .nav{
         max-width: 940px;  
         height: 96px;  
         margin: 0 auto;
-        grid-column: 1/10;
-        grid-row: 1/ 2;
-        display: grid;
+       
+       
+    
        
         
     }
