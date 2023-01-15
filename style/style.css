@@ -360,8 +360,8 @@
 
     .img.muñeco{
         margin: auto 0;
-        width: 336px;
-        height: 304px;
+        width: auto;
+        height: auto;
 
 
     }
