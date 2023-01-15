@@ -275,6 +275,10 @@ inf-text{
 
 @media(min-width: 940px){
 
+*{
+    background: yellow;
+}
+
 
 
 
