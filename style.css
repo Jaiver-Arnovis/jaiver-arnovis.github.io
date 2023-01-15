@@ -1,0 +1,272 @@
+*{
+    
+    width: 375px;  
+    height: 933px;  /* Light blue / light-blue-100 */ 
+    background: #F3F5FC; 
+}
+
+.nav{
+    position : absolute ;
+    width: 375px;  
+    height: 96px;  
+    left : 0px ;  
+    top : 0px ;
+}
+
+
+.imgA{
+    position: absolute;
+    left: 4.27%;
+    right: 87.2%;
+    top: 25%;
+    bottom: 25%;
+    width: 32px;
+    height: 48px;
+    
+    
+}
+
+.text-box{
+    
+
+
+
+    
+    
+    
+    
+    
+}
+
+
+.text-input{
+
+    position : absolute;
+    left: 16px;  
+    top: 152px;  
+    outline: none;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  width: 300px;
+  height: 100px;
+  transition: all 0.2s;
+
+}
+
+
+
+
+.informacion{
+    position : absolute ; 
+    
+    width: 229px;  
+    height: 18px;  
+    left: 16px;  
+    top: 451px; 
+    background: #dfffd5 ;
+    
+}
+
+.img-i{
+    width: 16px;
+    height: 16px;
+    
+}
+
+inf-text{
+    width: 16px;
+    position: absolute;
+    background: #dfffd5 ;
+    display: inline;
+    
+}
+
+.box-btn{
+    
+    display:flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+    padding: 0px;  
+    gap: 24px;  
+    position : absolute ;  
+    width: 343px;  
+    height: 158px;  
+    left: 16px;  
+    top: 485px;
+    
+}
+
+
+
+
+.btn1{  
+    display:flex; 
+    flex-direction: row;  
+    align-items: flex-start;  
+    padding: 24px;  
+    gap: 8px;  
+    width: 343px;  
+    height: 67px;  
+    background: #0A3871;  
+    border-radius: 24px;  
+    flex : none ;  
+    order : 0 ;  
+    align-self:stretch;  
+    flex-grow: 0; 
+    left: 16px;  
+    top: 575px; 
+}
+
+.btn2{
+    box-sizing: border-box;  /* Auto layout */ 
+    display: flex;  
+    flex-direction: row;  
+    align-items: flex-start;  
+    padding: 24px;  
+    gap: 8px;  
+    width: 343px;  
+    height: 67px;  /* Dark blue / dark-blue-300 */ 
+    border: 1px solid #0A3871;  
+    border-radius: 24px;  /* Inside auto layout */ 
+    flex : none ;  
+    order : 1 ;  
+    align-self:stretch;  
+    flex-grow: 0;
+    text-align: center ;
+
+
+
+    
+}
+
+
+.msg-box{
+    
+    display:flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+    padding: 32px;  
+    gap: 32px;  
+    position : absolute ;  
+    width: 270px;  
+    height: 186px;  
+    left: 24px;  
+    top: 707px;  /* White */ 
+    background : green;  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);  
+    border-radius: 32px;
+    
+    
+}
+
+.msg-inf{
+    display:flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+    padding: 0px;  
+    gap: 16px;  
+    width: 263px;  
+    height: auto;  /* Inside auto layout */ 
+    flex :  auto;  
+    order : 0 ;  
+    align-self:stretch;  
+    flex-grow: 0;
+    background: greenyellow;
+    
+    
+}
+
+
+
+.text1{
+    width: 263px;  
+    height: 58px;  
+    font-family: 'Inter';  
+    font-style: normal;  
+    font-weight: 700;  
+    font-size: 24px;  
+    line-height : 120% ;  /* or 29px */ 
+    text-align: center;  /* Gray / gray - 500 */ 
+    color: #343A40;  /* Inside auto layout */ 
+    flex : none ;  
+    order : 0 ;  
+    align-self:stretch;  
+    flex-grow: 0;
+    background: white;
+    display: block;
+    
+    
+}
+
+.text2{
+    width: 263px;  
+    height: 48px;  
+    font-family: 'Inter';  
+    font-style: normal;  
+    font-weight: 400;  
+    font-size: 16px;  
+    line-height : 150% ;  /* or 24px */ 
+    text-align: center;  /* Gray / gray - 400 */ 
+    color : # 495057 ;  /* Inside auto layout */ 
+    flex : none ;  
+    order : 1 ;  
+    align-self:stretch;  
+    flex-grow: 0; 
+    background: white;
+    display: block;
+    
+    
+    
+}
+    
+    
+    
+    
+
+.text-input-salida{
+    display: none;
+    width: 75%; 
+    position : absolute;
+    left: 5px;  
+    top: 15px;  
+    outline: none;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  
+  height: auto;
+  transition: all 0.2s;
+
+
+}
+.btn-copy{
+   box-sizing: border-box;  /* Auto layout */ 
+   display: none;  
+   flex-direction: row;  
+   align-items: flex-start;  
+   padding: 24px;  
+   gap: 20px;  
+   width: 100%;  
+   height: 67px;  /* Dark blue / dark-blue-300 */ 
+   border: 1px solid #0A3871;  
+   border-radius: 24px;  /* Inside auto layout */ 
+   flex : none ;  
+   order : 1 ;  
+   align-self:stretch;  
+   flex-grow: 0;
+   
+   
+   
+   
+}
