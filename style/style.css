@@ -261,6 +261,8 @@
         max-width: 940px;  
         height: 96px;  
         margin: 0 auto;
+        grid-column: 1/10;
+        grid-row: 1/ 2;
         
     }
 
@@ -312,7 +314,7 @@
         background: grey;
         
         display:flex;
-        flex-wrap: wrap   
+        flex-wrap: wrap;   
         height: 158px;  
         left: 16px;
 
