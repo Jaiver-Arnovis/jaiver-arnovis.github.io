@@ -259,9 +259,9 @@
 }
 
     body{
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        
+
+
+
 
 
 
@@ -287,8 +287,8 @@
     }
 
     .main{
-        grid-column:1/10 ;
-        grid-row: 2/7 ;
+        
+        
         max-width: 940px; 
         max-height: 690px; 
         margin: 0 auto;
