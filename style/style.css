@@ -259,7 +259,8 @@
 }
 
     body{
-
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         
 
 
@@ -272,8 +273,7 @@
         grid-column: 1/10;
         grid-row: 1/ 2;
         display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+       
         
     }
 
