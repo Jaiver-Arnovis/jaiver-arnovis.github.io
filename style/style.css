@@ -213,11 +213,11 @@ inf-text{
     font-style: normal;  
     font-weight: 400;  
     font-size: 16px;  
-    line-height : 150% ;  /* or 24px */ 
-    text-align: center;  /* Gray / gray - 400 */ 
-    color : # 495057 ;  /* Inside auto layout */ 
-    flex : none ;  
-    order : 1 ;  
+    line-height: 150% ;
+    text-align: center; 
+    color: #495057 ;  
+    flex: none ;  
+    order: 1 ;  
     align-self:stretch;  
     flex-grow: 0; 
     background: white;
