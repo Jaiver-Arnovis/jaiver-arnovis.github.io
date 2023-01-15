@@ -321,7 +321,7 @@
         display:flex;  
         padding: 24px;  
         gap: 8px;  
-        width: 343px;  
+        max-width: 200px;  
         height: 67px;  
         background: #0A3871;  
         border-radius: 24px;  
@@ -332,7 +332,7 @@
         display: flex;  
         padding: 24px;  
         gap: 8px;  
-        width: 343px;  
+        max-width: 200px;  
         height: 67px;  
         border: 2px solid #0A3871;  
         border-radius: 24px;
