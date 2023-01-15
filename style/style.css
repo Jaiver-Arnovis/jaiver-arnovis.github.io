@@ -307,8 +307,6 @@
     .box-btn{
 
         display:flex;  
-        flex-direction: row;  
-        align-items: flex-start;  
         padding: 0px;  
         gap: 24px;  
         position : absolute ;    
@@ -321,9 +319,7 @@
     }
 
     .btn1{  
-        display:flex; 
-        flex-direction: row;  
-        align-items: flex-start;  
+        display:flex;  
         padding: 24px;  
         gap: 8px;  
         width: 343px;  
@@ -335,8 +331,6 @@
 
     .btn2{
         display: flex;  
-        flex-direction: row;  
-        align-items: flex-start;  
         padding: 24px;  
         gap: 8px;  
         width: 343px;  
