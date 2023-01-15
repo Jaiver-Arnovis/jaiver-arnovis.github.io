@@ -279,15 +279,15 @@
         margin: 0 auto;
         top: 48px;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         
     }
 
 
     .text-box{
-        grid-column:1/4 ;
-        grid-row: 1/4 ;
+        grid-column:2/4 ;
+        grid-row: 2/4 ;
 
         display: block;
         max-width: 60%;
