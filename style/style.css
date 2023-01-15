@@ -298,7 +298,14 @@
         grid-template-rows: repeat(6, 1fr);
         
     }
+    informacion{
 
+        grid-column:2/7 ;
+        grid-row: 6/7 ;
+
+
+
+    }
 
     .text-box{
         grid-column:2/7 ;
