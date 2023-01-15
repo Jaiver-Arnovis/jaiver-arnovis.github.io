@@ -307,7 +307,17 @@
     }
 
 
+    .text-box{
+        display: block;
+        max-width: 60%;
+        max-height: 350px;
+        margin: 0 auto;
+        margin-left: 23px;
 
+
+
+        
+    }
 
 
 
