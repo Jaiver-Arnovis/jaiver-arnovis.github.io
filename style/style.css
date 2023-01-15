@@ -277,7 +277,7 @@
 @media(min-width: 940px){
 
 *{
-    background: yellow;
+    background: rgb(231, 231, 132);
 }
 .nav{
     max-width: 940px;  
