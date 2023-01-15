@@ -281,6 +281,7 @@
         margin-left: 40px;
         width: 32px;
         height: 48px;
+        margin-top:24px;
 
 
     }
@@ -369,10 +370,12 @@
         background: blue;
     }
 
-    .img.muñeco{
+    .img-muñeco{
+
         margin: auto 0;
-        width: auto;
-        height: auto;
+       padding: 1px;
+       display: block;
+
 
 
     }
