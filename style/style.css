@@ -293,7 +293,7 @@
         max-height: 690px; 
         margin: 0 auto;
         top: 48px;
-        grid-template-columns: repeat(10, 1fr);
+        grid-template-columns: repeat(11, 1fr);
         grid-template-rows: repeat(6, 1fr);
         
     }
@@ -322,7 +322,7 @@
     }
     .box-btn{
         grid-column:2/6 ;
-        grid-row: 5/6;
+        grid-row: 6/7;
         background: grey;
         
         display:flex;
