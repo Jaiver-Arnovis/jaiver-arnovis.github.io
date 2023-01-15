@@ -346,7 +346,8 @@
 
 
     .msg-inf{
-        justify-content: end;
+        grid-column: 4/6 ;
+        grid-row: 1/5 ;
     }
 
 
