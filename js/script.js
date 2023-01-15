@@ -15,7 +15,10 @@ function encriptar (){
         document.getElementById("btn-copy","text-input-salida").style.display=("block");
         document.getElementById("text-input-salida").style.display=("block");
         document.getElementById("text1" ).style.display=("none");
+ 
         document.getElementById("text2" ).style.display=("none");
+        document.getElementById("img-muñeco" ).style.display=("none");
+
         
 }
 
