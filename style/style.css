@@ -275,7 +275,6 @@
 
     .main{
         max-width: 940px;  
-        height: 96px;  
         margin: 0 auto;
         top: 48px;
         display: grid;
