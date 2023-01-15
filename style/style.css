@@ -293,6 +293,7 @@
         max-height: 690px; 
         margin: 0 auto;
         top: 48px;
+        display: grid;
         grid-template-columns: repeat(11, 1fr);
         grid-template-rows: repeat(6, 1fr);
         
