@@ -257,12 +257,23 @@
 *{
     background: rgb(231, 231, 132);
 }
+
+    body{
+
+        
+
+
+
+    }
     .nav{
         max-width: 940px;  
         height: 96px;  
         margin: 0 auto;
         grid-column: 1/10;
         grid-row: 1/ 2;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         
     }
 
@@ -280,9 +291,7 @@
         max-height: 690px; 
         margin: 0 auto;
         top: 48px;
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        
         
     }
 
