@@ -279,19 +279,32 @@
 *{
     background: rgb(231, 231, 132);
 }
-.nav{
-    max-width: 940px;  
-    height: 96px;  
-    margin: 0 auto;
-    
-}
-.main{
-    max-width: 940px;  
-    height: 96px;  
-    margin: 0 auto;
-    top: 48px;
-    
-}
+    .nav{
+        max-width: 940px;  
+        height: 96px;  
+        margin: 0 auto;
+        
+    }
+
+    .imgA{
+
+        left: 4.27%;
+        right: 87.2%;
+        top: 25%;
+        bottom: 25%;
+        width: 32px;
+        height: 48px;
+
+
+    }
+
+    .main{
+        max-width: 940px;  
+        height: 96px;  
+        margin: 0 auto;
+        top: 48px;
+        
+    }
 
 
 
