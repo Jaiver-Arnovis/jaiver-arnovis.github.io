@@ -290,7 +290,7 @@
         
         
         max-width: 940px; 
-        max-height: 690px; 
+        max-height: 790px; 
         margin: 0 auto;
         top: 48px;
         display: grid;
@@ -322,8 +322,8 @@
 
     }
     .box-btn{
-        grid-column:2/6 ;
-        grid-row: 6/7;
+        grid-column:2/7 ;
+        grid-row: 8/9;
         background: grey;
         
         display:flex;
@@ -367,7 +367,7 @@
         background: white;
         border-radius: 15px;
         grid-column: 8/10 ;
-        grid-row: 2/6 ;
+        grid-row: 1/10 ;
         background: blue;
     }
 
