@@ -297,14 +297,7 @@
         grid-template-rows: repeat(6, 1fr);
         
     }
-    informacion{
-        height: 18px;
-        grid-column:2/7 ;
-        grid-row: 6/7 ;
-
-
-
-    }
+   
 
     .text-box{
         grid-column:2/7 ;
@@ -321,8 +314,19 @@
 
         
     }
+
+
+
     .text-input{
         height: 400px
+
+
+
+    }
+    informacion{
+        height: 18px;
+        grid-column:2/7 ;
+        grid-row: 6/7 ;
 
 
 
