@@ -334,7 +334,7 @@
 
     }
 
-    informacion{
+    .informacion{
         display: flex;
         height: 18px;
         grid-column:2/7 ;
