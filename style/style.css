@@ -349,6 +349,7 @@
         background: grey;   
         height: 67px;  
         left: 16px;
+        display: flex;
         justify-content: space-between;
 
 
