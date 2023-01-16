@@ -333,6 +333,7 @@
 
 
     }
+
     informacion{
         height: 18px;
         grid-column:2/7 ;
@@ -344,10 +345,7 @@
     .box-btn{
         grid-column:2/7 ;
         grid-row: 8/9;
-        background: grey;
-        
-        display:flex;
-        flex-wrap: wrap;   
+        background: grey;   
         height: 67px;  
         left: 16px;
 
