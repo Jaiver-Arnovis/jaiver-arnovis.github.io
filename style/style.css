@@ -345,7 +345,8 @@
 
     .btn1{  
         display:flex;  
-        padding: 24px;  
+        padding: 24px;
+        margin: auto 0;  
         gap: 8px;  
         width: 45%;
         height: 67px;  
@@ -356,7 +357,8 @@
 
     .btn2{
         display: flex;  
-        padding: 24px;  
+        padding: 24px;
+        margin: auto 0; 
         gap: 8px;  
         width: 45%;  
         height: 67px;  
