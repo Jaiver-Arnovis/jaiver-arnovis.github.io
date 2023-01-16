@@ -401,7 +401,24 @@
 
 
     }
+    .text-input-salida{
 
+        display: none;
+
+
+
+
+    }
+
+
+    btn-copy{
+        display: none;
+
+
+
+
+
+    }
 
 
 
