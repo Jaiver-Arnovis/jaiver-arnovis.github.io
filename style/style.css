@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;800&display=swap');
+
+
+
+
+
+
+
+
 @media(max-width: 380px){
 
     *{
@@ -193,7 +202,7 @@
         font-family: 'Inter';  
         font-style: normal;  
         font-weight: 400;  
-        font-size: 16px;  
+        font-size: 15px;  
         line-height: 150% ;
         text-align: center; 
         color: #495057 ;  
@@ -252,13 +261,46 @@
     }
 }
 
-@media(min-width: 940px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1235px){
 
     *{
         background: #F3F5FC;
       
     }
+    body{
+        max-width: 1400px;  
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: 0 auto;
+        
 
+    }
 
 
 
@@ -267,7 +309,9 @@
 
   
     .nav{
-        max-width: 940px;  
+        grid-column:1/2 ;
+        grid-row: 1/2 ;
+        display: flex;
         height: 96px;  
         margin: 0 auto;
         
@@ -290,25 +334,29 @@
 
 
     .main{
+        grid-column:2/21 ;
+        grid-row: 1/3 ;
+        max-width: 1400px; 
         margin: 0 auto;
         top: 48px;
         display: grid;
-        grid-template-columns: repeat(11, 1fr);
+        grid-template-columns: repeat(9, 1fr);
         grid-template-rows: repeat(6, 1fr);
         
     }
    
 
     .text-box{
+
         grid-column:2/7 ;
         grid-row: 2/5 ;
-        background: red;
-
         display: block;
-        max-width: 60%;
+        width: 100%;
         max-height: 450px;
         margin: 0 auto;
-        margin-left: 48px;
+        margin-left: 0px;
+        padding: 0;
+
 
 
 
@@ -318,39 +366,73 @@
 
 
     .text-input{
-        width: 577px;
-        height: auto;
+        width: 100%;
+        height: 100%;
         outline: none;
-        padding: 1em;
+
         border-radius: 10px;
         border: 2px solid transparent;
         font-family: "Heebo", sans-serif;
         font-weight: 500;
         font-size: 32px;
-        line-height: 1.2;
-        transition: all 0.2s;
+        line-height: 1.2;        transition: all 0.2s;
 
 
+
+    }
+
+    .text-input::placeholder{
+        color: #0A3871;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
 
     }
 
     .informacion{
-        display: flex;
-        height: 18px;
         grid-column:2/7 ;
         grid-row: 6/7 ;
-
-
+        height: 18px;
+        margin-top: 100px;
+        
 
     }
+
+    .inf-text{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #495057;
+
+        opacity: 0.8;
+        margin-left:8px ;
+        height: 18px;
+        padding: auto 0;
+    }
+
+
+
+
+
+
+
+
+
+
     .box-btn{
         grid-column:2/7 ;
-        grid-row: 8/9;
-        background: grey;   
-        height: 67px;  
-        left: 16px;
+        grid-row: 8/9;  
+        height: 67px;
         display: flex;
         justify-content: space-between;
+    
+       
+        
 
 
 
@@ -358,19 +440,16 @@
 
     .btn1{    
         padding: 24px;
-        margin: auto 0;  
-        gap: 8px;  
         width: 47%;
         height: 67px;  
         background: #0A3871;  
-        border-radius: 24px;  
+        border-radius: 24px;
+
         
     }
 
     .btn2{ 
         padding: 24px;
-        margin: auto 0; 
-        gap: 8px;  
         width: 47%;  
         height: 67px;  
         border: 2px solid #0A3871;  
@@ -386,24 +465,95 @@
     .msg-inf{
         background: white;
         border-radius: 15px;
-        grid-column: 8/10 ;
+        grid-column: 8/11 ;
         grid-row: 1/10 ;
-        background: blue;
         width: 400px;
+        height: 900px;
+        margin: 40px 40px;
     }
 
     .img-muñeco{
-        margin-top: 243px;
+        margin-top: 220px;
         margin-left: 32px;
         margin-right: 32px;
-        width: 95%;
+        background-color: white;
 
 
 
     }
+
+    .text1{
+        height: 58px;
+        margin: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        background-color: white;
+
+
+
+    }
+    .text2{
+        height: 48px;
+        margin: 32px;
+        margin-top: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+        color: #495057;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-bottom: 247px;
+        background-color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .text-input-salida{
 
         display: none;
+        margin: 32px;
+        margin-right: 32;
+        margin-bottom: auto;
+        height: 80%;
+        width: 82%;
+        background-color: white;
+        border: none;
+
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 24PX;
+        line-height: 36px;
+        line-height: 150%;
+        color: #495057;
+
+
 
 
 
@@ -411,16 +561,20 @@
     }
 
 
-    btn-copy{
+    .btn-copy{
         display: none;
+        box-sizing: border-box;
+        flex-direction: row;
+        align-items: flex-start;
         padding: 24px;
-        margin: auto 0; 
-        gap: 8px;  
-        width: 90%;  
-        height: 67px;  
-        border: 2px solid #0A3871;  
+        gap: 8px;
+        width: 336px;
+        height: 67px;
+        
+        margin: 32px;
+        
+        border: 1px solid #0A3871;
         border-radius: 24px;
-
 
 
 
