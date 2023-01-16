@@ -290,8 +290,6 @@
 
 
     .main{
-        max-width: 940px; 
-        max-height: 790px; 
         margin: 0 auto;
         top: 48px;
         display: grid;
