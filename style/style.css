@@ -426,7 +426,7 @@
 
     .box-btn{
         grid-column:2/7 ;
-        grid-row: 8/9;
+        grid-row: 7/8;
         width: 680px;  
         height: 67px;
         display: flex;
