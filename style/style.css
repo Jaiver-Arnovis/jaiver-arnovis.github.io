@@ -471,6 +471,7 @@
         width: 400px;
         height: 900px;
         margin: 40px 40px;
+        display: flexbox;
     }
 
     .img-muñeco{
