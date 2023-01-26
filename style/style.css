@@ -5,6 +5,7 @@
         background: #F3F5FC;
       
     }
+
     body{
         max-width: 1400px;  
         display: grid;
@@ -15,12 +16,6 @@
 
     }
 
-
-
-
-
-
-  
     .nav{
         grid-column:1/2 ;
         grid-row: 1/2 ;
@@ -29,9 +24,6 @@
         margin: 0 auto;
         
     }
-
-
-
 
     .imgA{
 
@@ -42,9 +34,6 @@
 
 
     }
-
-
-
 
     .main{
         grid-column:2/21 ;
@@ -57,7 +46,6 @@
         grid-template-rows: repeat(13, 1fr);
         
     }
-   
 
     .text-box{
 
@@ -75,8 +63,6 @@
 
         
     }
-
-
 
     .text-input{
         width: 100%;
@@ -128,15 +114,6 @@
         padding: auto 0;
     }
 
-
-
-
-
-
-
-
-
-
     .box-btn{
         grid-column:2/7 ;
         grid-row: 7/8;
@@ -174,7 +151,6 @@
 
         
     }
-
 
     .msg-inf{
         background: white;
@@ -213,6 +189,7 @@
 
 
     }
+
     .text2{
         height: 48px;
         margin: 32px;
@@ -231,20 +208,6 @@
         margin-bottom: 247px;
         background-color: white;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .text-input-salida{
 
@@ -272,7 +235,6 @@
 
     }
 
-
     .btn-copy{
         display: none;
         box-sizing: border-box;
@@ -299,32 +261,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width: 1235px){
 
     *{
         background: #F3F5FC;
       
     }
+
     body{
         max-width: 1400px;  
         display: grid;
@@ -335,12 +278,6 @@
 
     }
 
-
-
-
-
-
-  
     .nav{
         grid-column:1/2 ;
         grid-row: 1/2 ;
@@ -349,9 +286,6 @@
         margin: 0 auto;
         
     }
-
-
-
 
     .imgA{
 
@@ -362,9 +296,6 @@
 
 
     }
-
-
-
 
     .main{
         grid-column:2/21 ;
@@ -378,7 +309,6 @@
         
     }
    
-
     .text-box{
 
         grid-column:2/7 ;
@@ -395,8 +325,6 @@
 
         
     }
-
-
 
     .text-input{
         width: 100%;
@@ -448,15 +376,6 @@
         padding: auto 0;
     }
 
-
-
-
-
-
-
-
-
-
     .box-btn{
         grid-column:2/7 ;
         grid-row: 7/8;
@@ -494,7 +413,6 @@
 
         
     }
-
 
     .msg-inf{
         background: white;
@@ -536,6 +454,7 @@
 
 
     }
+
     .text2{
         height: 48px;
         margin: 32px;
@@ -554,20 +473,6 @@
         margin-bottom: 247px;
         background-color: white;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .text-input-salida{
 
@@ -595,7 +500,6 @@
 
     }
 
-
     .btn-copy{
         display: none;
         box-sizing: border-box;
@@ -615,7 +519,5 @@
 
 
     }
-
-
 
 }
