@@ -156,9 +156,9 @@
         background: white;
         border-radius: 15px;
         grid-column: 2/7 ;
-        grid-row: 9/13 ;
+        grid-row: 8/13 ;
         width: 90%;
-        height: 900px;
+        height: 50%;
         margin: 40px 40px;
         display: flexbox;
     }
