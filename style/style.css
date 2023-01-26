@@ -43,7 +43,7 @@
         top: 48px;
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(13, 1fr);
+        grid-template-rows: repeat(14, 1fr);
         
     }
 
@@ -255,6 +255,11 @@
 
     }
 
+    .footer{
+        grid-column: 1/8 ;
+        grid-row: 14/15 ;
+
+    }
 
 
 
