@@ -426,6 +426,7 @@
     }
 
     .img-muñeco{
+        display: block;
         margin-top: 220px;
         margin-left: 32px;
         margin-right: 32px;
