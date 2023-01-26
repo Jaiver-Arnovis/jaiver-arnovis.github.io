@@ -7,7 +7,7 @@
 
 
 
-@media(max-width: 380px){
+@media( min-width: 1235px){
 
     *{
         background: #F3F5FC;
